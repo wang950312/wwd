@@ -2,10 +2,9 @@
 layout: defalut
 title: Vida Wang' s Blog
 ---  
-<body style = "background-img: https://raw.githubusercontent.com/wang950312/wwd/master/_images/background.jpg;">
 
 <h2>{{ page.title }}</h2>
-
+<div left = 20px>
 <h2>Bioinformatics</h2>
 
 <ul>
@@ -13,5 +12,6 @@ title: Vida Wang' s Blog
 　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 　　　　{% endfor %}
 </ul>
+</div>
 
 
